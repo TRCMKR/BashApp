@@ -1,0 +1,18 @@
+#!/bin/bash
+
+. /Users/trcmkr/Desktop/Новая\ папка/bashScript
+
+if [ ! $[$(Add 255 1)==256] ]
+then
+exit 99;
+fi
+if [ ! $[$(Add -10 1)==-9] ]
+then
+exit 99; 
+fi
+if [ ! $[$(Add 0 0)!=256] ]
+then
+exit 99;
+fi
+
+echo "All tests were compeleted!"
