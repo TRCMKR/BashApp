@@ -15,5 +15,5 @@ then
 exit 99;
 fi
 
-ejejcj e
+
 echo "All tests were compeleted!!"
