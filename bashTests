@@ -10,9 +10,10 @@ if [ ! $[$(Add -10 1)==-9] ]
 then
 exit 99; 
 fi
-if [ ! $[$(Add 0 0)!213=256] ]
+if [ ! $[$(Add 0 0)!=256] ]
 then
 exit 99;
 fi
 
+ejejcj e
 echo "All tests were compeleted!!"
