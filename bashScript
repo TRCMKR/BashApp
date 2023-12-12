@@ -1,8 +1,6 @@
 #!/bin/bash
 
-function myFunc {
-n1="$1"
-n2="$2"
-printf $(($n1+$n2))
+function Add {
+    echo $(($1 + $2))
 echo
 }
