@@ -1,6 +1,6 @@
 #!/bin/bash
 
-. /Users/trcmkr/Desktop/Новая\ папка/bashScript
+. /bashScript
 
 if [ ! $[$(Add 255 1)==256] ]
 then
