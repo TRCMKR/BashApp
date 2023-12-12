@@ -15,4 +15,4 @@ then
 exit 99;
 fi
 
-echo "All tests were compeleted!"
+echo "All tests were compeleted!!"
