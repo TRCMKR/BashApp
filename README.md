@@ -1,3 +1,2 @@
 # BashApp
 Bonus task
-Test
