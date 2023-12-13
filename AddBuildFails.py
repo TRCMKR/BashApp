@@ -3,5 +3,5 @@ client = TrackerClient(token="y0_AgAAAAA_j5z4AAr7GgAAAAD0m_F56984zz5ISTe5i8rruJY
 failsQueue = client.queues["BUILDFAILS"]
 
 client.issues.create(
-    queue = "BUILDFAILS", summary = "API TEST ISSUE", assignee = failsQueue.lead
+    queue = "BUILDFAILS", summary = "API ISSUE", assignee = failsQueue.lead
 )
